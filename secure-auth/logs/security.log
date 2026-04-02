@@ -1,0 +1,12 @@
+{"level":"warn","message":{"event":"Unauthorized access attempt to /api/auth/adminDashboard","ip":"::ffff:127.0.0.1","userId":"69b2f17f421207da1293cbd1"},"timestamp":"2026-03-13T15:50:28.309Z"}
+{"level":"warn","message":{"event":"Brute force login attempt detected","ip":"::ffff:127.0.0.1","userId":"unknown"},"timestamp":"2026-03-13T15:52:03.039Z"}
+{"level":"warn","message":{"event":"Brute force login attempt detected","ip":"::ffff:127.0.0.1","userId":"unknown"},"timestamp":"2026-03-13T15:54:03.631Z"}
+{"level":"warn","message":{"event":"Brute force login attempt detected","ip":"::ffff:127.0.0.1","userId":"unknown"},"timestamp":"2026-03-13T15:54:48.901Z"}
+{"level":"warn","message":{"event":"Invalid JWT token detected","ip":"::ffff:127.0.0.1","userId":"unknown"},"timestamp":"2026-03-13T15:56:35.775Z"}
+{"level":"warn","message":{"event":"Brute force login attempt detected","ip":"::ffff:127.0.0.1","userId":"unknown"},"timestamp":"2026-03-13T15:58:38.325Z"}
+{"level":"warn","message":{"event":"Wrong password attempt","ip":"::ffff:127.0.0.1","userId":"69b433365be5afc25f0438b4"},"timestamp":"2026-03-13T16:23:30.914Z"}
+{"level":"warn","message":{"event":"Login attempt with non-existing email","ip":"::ffff:127.0.0.1","userId":"unknown"},"timestamp":"2026-03-13T16:23:42.909Z"}
+{"level":"warn","message":{"event":"Wrong password attempt","ip":"::ffff:127.0.0.1","userId":"69b433365be5afc25f0438b4"},"timestamp":"2026-03-13T17:52:23.418Z"}
+{"level":"warn","message":{"event":"Wrong password attempt","ip":"::ffff:127.0.0.1","service":"secure-auth","userId":"69b433365be5afc25f0438b4"},"timestamp":"2026-03-13T18:06:31.463Z"}
+{"level":"warn","message":{"event":"Wrong password attempt","ip":"::ffff:127.0.0.1","service":"secure-auth","userId":"69b433365be5afc25f0438b4"},"timestamp":"2026-03-13T18:06:48.863Z"}
+{"level":"warn","message":{"event":"Wrong password attempt","ip":"::ffff:127.0.0.1","service":"secure-auth","userId":"69b433365be5afc25f0438b4"},"timestamp":"2026-03-13T18:07:00.387Z"}
