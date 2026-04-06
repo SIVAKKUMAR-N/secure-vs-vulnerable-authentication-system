@@ -37,7 +37,7 @@ NoSQL Injection is a database attack where an attacker can manipulate the databa
 
 vulnerable code:
 ```node            
-const existingUser = await User.findOne({ email });
+User.findOne(req.body)
 ```
 Here the application directly uses user input inside the database query without validation. This allows attackers to inject MongoDB operators such as $ne, $gt or $regex.
 
