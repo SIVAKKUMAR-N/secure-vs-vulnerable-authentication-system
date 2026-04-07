@@ -69,6 +69,12 @@ const login = async (req,res) => {
       message: "Email and password required"
    });
 }
+
+//check if email and password are strings to prevent NoSQL injection attacks, where an attacker might try to inject malicious queries by sending non-string values in the email or password fields. By ensuring that both email and password are strings, we can mitigate this type of attack and enhance the security of our authentication system.
+if (typeof email !== "string" || typeof password !== "string") {
+  return res.status(400).json({ message: "Invalid input" });
+}
+
      // Normalize the email by converting it to lowercase and trimming whitespace, ensuring consistent formatting for database queries and comparisons.
     try{
         const user = await User.findOne({email});
@@ -110,7 +116,7 @@ if (!isMatch) {
         // Set the refresh token in an HTTP-only cookie to enhance security by preventing client-side scripts from accessing it, and configure the cookie with appropriate options for security and cross-site request handling.
         res.cookie("refreshToken", refreshToken, {
         httpOnly: true,
-        secure: false,
+        secure: true, // Set to true in production to ensure cookies are only sent over HTTPS connections, enhancing security by preventing token interception over unsecured connections.
         sameSite: "strict"
        });
         res.json({accesstoken});    

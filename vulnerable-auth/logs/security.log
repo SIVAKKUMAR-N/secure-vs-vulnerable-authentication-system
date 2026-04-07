@@ -20,3 +20,8 @@
 {"level":"warn","message":{"event":"Login attempt with non-existing email","ip":"127.0.0.1","userId":"unknown"},"timestamp":"2026-03-15T09:34:55.995Z"}
 {"level":"warn","message":{"event":"Login attempt with non-existing email","ip":"127.0.0.1","userId":"unknown"},"timestamp":"2026-03-15T09:34:56.201Z"}
 {"level":"warn","message":{"event":"Wrong password attempt","ip":"127.0.0.1","userId":"69b59d43223f71e1b0b7a434"},"timestamp":"2026-03-15T09:48:02.186Z"}
+{"level":"warn","message":{"event":"Login attempt with non-existing email","ip":"127.0.0.1","userId":"unknown"},"timestamp":"2026-04-07T16:04:54.252Z"}
+{"level":"warn","message":{"event":"Login attempt with non-existing email","ip":"127.0.0.1","userId":"unknown"},"timestamp":"2026-04-07T16:16:29.383Z"}
+{"level":"warn","message":{"event":"Wrong password attempt","ip":"127.0.0.1","userId":"69b59d43223f71e1b0b7a434"},"timestamp":"2026-04-07T16:17:15.657Z"}
+{"level":"warn","message":{"event":"Wrong password attempt","ip":"127.0.0.1","userId":"69b59d43223f71e1b0b7a434"},"timestamp":"2026-04-07T16:28:53.521Z"}
+{"level":"warn","message":{"event":"Login attempt with non-existing email","ip":"127.0.0.1","userId":"unknown"},"timestamp":"2026-04-07T16:31:11.347Z"}
